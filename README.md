@@ -4,18 +4,10 @@ A mod for Lethal Company that adds more features to the insanity mechanic.
 This is a client-sided mod as it would be odd if other players could see your hallucinations.
 
 **This mod is far from being done. This is only the first version. I have much more planned for this mod.**
-## Reworks 
-Insanity Remastered changes how the insanity mechanic works in a couple of ways. 
-
-- **The max insanity value is increased to accomodate for additions from this mod.**
-    - This makes you more vulnerable to the Ghost Girl.
-    - To combat this, you can recover sanity through various methods.
-      
-- **There are now three levels of insanity. High, Medium, and Low.**
-   - As your insanity level progresses, you will experience more intense hallucinations.
 
 ## Additions:
-
+**There are now three levels of insanity. High, Medium, and Low.**
+   - As your insanity level progresses, you will experience more intense hallucinations.
 ### Sound Hallucinations:
 In addition to the current sounds that play when inside the facility, this mod adds several new sounds to throw you off.
 
