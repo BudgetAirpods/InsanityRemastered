@@ -1,6 +1,7 @@
 # Insanity Remastered
 A mod for Lethal Company that adds more features to the insanity mechanic.
 
+This is a client-sided mod as it would be odd if other players could see your hallucinations.
 
 **This mod is far from being done. This is only the first version. I have much more planned for this mod.**
 ## Reworks 
@@ -20,6 +21,11 @@ In addition to the current sounds that play when inside the facility, this mod a
 
 There's also a chance certain vanilla sound effects will play to make the sounds more believable.
 
+### Light Shutoff:
+
+When inside the facility, the lights has a chance to go out for you and you only.
+
+They will power back on their own eventually, but you can step outside and re-enter the facility to force them on.
 ### Player Hallucinations:
 
 When you reach a high insanity level, you can experience hallucinations of other players.
