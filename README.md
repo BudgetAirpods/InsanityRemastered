@@ -23,14 +23,14 @@ There's also a chance certain vanilla sound effects will play to make the sounds
 
 ### Light Shutoff:
 
-When inside the facility, the lights has a chance to go out for you and you only.
+When inside the facility, the lights have a chance to go out for you and you only.
 
 They will power back on their own eventually, but you can step outside and re-enter the facility to force them on.
 ### Player Hallucinations:
 
 When you reach a high insanity level, you can experience hallucinations of other players.
 
-This can manifest in them walking around the facility aimlessly, staring at you, or even them chasing you.
+This can manifest in them wandering around the facility aimlessly, staring at you, or even them chasing you.
 
 If you are touched by the hallucination if it's chasing you, you will recieve a lot of negative effects.
 
