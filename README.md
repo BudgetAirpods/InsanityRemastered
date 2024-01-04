@@ -18,8 +18,9 @@ Insanity Remastered changes how the insanity mechanic works in a couple of ways.
 ## Additions:
 
 ### Sound Hallucinations:
-In addition to the current sounds that play when inside the facility, this mod adds several new sounds to unnerve you.
-There's also a chance certain vanilla sound effects will play to make the hallucinations more believable.
+In addition to the current sounds that play when inside the facility, this mod adds several new sounds to throw you off.
+
+There's also a chance certain vanilla sound effects will play to make the sounds more believable.
 
 ### Player Hallucinations:
 
@@ -29,7 +30,7 @@ This can manifest in them walking around the facility aimlessly, staring at you,
 
 If you are touched by the hallucination if it's chasing you, you will recieve a lot of negative effects.
 
-They are easy to avoid though; Simply closing the door or leaving the facility will prevent them from getting you. 
+They are easy to avoid though; Simply closing a door on them or leaving the facility will prevent them from getting you. 
 
 ### Fake Items:
 
@@ -37,10 +38,29 @@ When inside the facility, you can stumble upon a piece of scrap that feels off, 
 
 Scanning it will reveal that is has no value, and picking it up can have several effects on you.
 
-It will despawn if it is not picked up after a few seconds.
+It will despawn if it is not picked up within a few seconds of spawning.
 
 #### Panic Attacks:
 
-At the highest level of insanity, you will slowly experience what I like to call a panick attack.
+At the highest level of insanity, you will slowly experience a panic attack.
 
-During one, almost all hallucinations become lethal andw
+During one, almost all hallucinations become lethal and you experience one of the following symptoms:
+- Slowness.
+- Whispering from unknown sources.
+- Reduced Stamina.
+- Reduced Vision.
+- Death.
+
+Panic attacks can be helped by stepping outside the facility for a while.
+
+## Planned Features:
+
+As I have stated, this is only the first version of this mod.
+
+I already have plans for or I am already working on new things such as:
+
+- Hallucinations of any enemy. (Bracken, Thumper, etc.)
+- Fake Rooms
+- Replacing teammates models with enemy models.
+- Cross-Mod compatibility with mods such as Skinwalker to play recordings as hallucination sounds.
+- The observer.
