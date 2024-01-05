@@ -6,6 +6,8 @@ This is a client-sided mod as it would be odd if other players could see your ha
 **This mod is far from being done. This is only the first version. I have much more planned for this mod.**
 
 ## Additions:
+## Increased insanity cap to 100 instead of 50.
+
 **There are now three levels of insanity. High, Medium, and Low.**
    - As your insanity level progresses, you will experience more intense hallucinations.
 ### Sound Hallucinations:
