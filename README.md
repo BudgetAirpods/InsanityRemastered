@@ -5,9 +5,24 @@ This is a client-sided mod as it would be odd if other players could see your ha
 
 **This mod is far from being done. This is only the first version. I have much more planned for this mod.**
 
-## Additions:
-## Increased insanity cap to 100 instead of 50.
+## Additions / Changes:
 
+**Increased insanity cap to 200 instead of 50.**
+
+## Sanity Loss and Gain methods:
+
+### Losing Sanity:
+   - Being inside the facility doesn't cause you to lose sanity anymore. However, you will lose sanity if you are alone inside there.
+   - You will lose *A lot* of sanity when you are experiencing a panic attack.
+   - During the Light Shutoff hallucination, you will lose a bit more sanity than normal.
+   - Certain hallucinations can caues more sanity loss.
+
+### Gaining Sanity:
+   - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
+   - Consuming pills will reset your insanity level entirely.
+   - Being around players will massively reduce your sanity loss when inside the facility. Better buddy up! (This does not apply during solo play).
+   - (WILL ADD SOON) Being near any light source will also reduce sanity loss.
+     
 **There are now three levels of insanity. High, Medium, and Low.**
    - As your insanity level progresses, you will experience more intense hallucinations.
 ### Sound Hallucinations:
@@ -22,11 +37,11 @@ When inside the facility, the lights have a chance to go out for you and you onl
 They will power back on their own eventually, but you can step outside and re-enter the facility to force them on.
 ### Player Hallucinations:
 
-When you reach a high insanity level, you can experience hallucinations of other players.
+While exploring the facilities, you have a chance of running into a hallucination of a player.
 
-This can manifest in them wandering around the facility aimlessly, staring at you, or even them chasing you.
+This can manifest in them wandering around the facility aimlessly, staring at you, or even them chasing after you.
 
-If you are touched by the hallucination if it's chasing you, you will recieve a lot of negative effects.
+If you are touched by the hallucination when it's chasing you, you will recieve a lot of negative effects.
 
 They are easy to avoid though; Simply closing a door on them or leaving the facility will prevent them from getting you. 
 
