@@ -12,10 +12,11 @@ This is a client-sided mod as it would be odd if other players could see your ha
 ## Sanity Loss and Gain methods:
 
 ### Losing Sanity:
-   - Being inside the facility doesn't cause you to lose sanity anymore. However, you will lose sanity if you are not near anyone while inside there.
+   - Being alone inside the facility will cause you to lose sanity (This is how it works in the base game, however I changed the distance check for nearby players).
    - You will lose *A lot* of sanity when you are experiencing a panic attack.
    - During the Light Shutoff hallucination, you will lose a bit more sanity than normal.
    - Certain hallucinations can cause more sanity loss.
+   - Seeing any enemy can cause you to lose sanity, albeit a small amount.
 
 ### Gaining Sanity:
    - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
