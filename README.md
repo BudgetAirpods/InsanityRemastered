@@ -16,7 +16,6 @@ This is a client-sided mod as it would be odd if other players could see your ha
    - You will lose *A lot* of sanity when you are experiencing a panic attack.
    - During the Light Shutoff hallucination, you will lose a bit more sanity than normal.
    - Certain hallucinations can cause more sanity loss.
-   - Seeing any enemy can cause you to lose sanity, albeit a small amount.
 
 ### Gaining Sanity:
    - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
