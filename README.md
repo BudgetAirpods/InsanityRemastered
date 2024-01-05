@@ -33,7 +33,7 @@ There's also a chance certain vanilla sound effects will play to make the sounds
 
 ### Light Shutoff:
 
-When inside the facility, the lights have a chance to go out for you and you only.
+While inside the facility, the lights have a chance to go out for you and you only.
 
 They will power back on their own eventually, but you can step outside and re-enter the facility to force them on.
 ### Player Hallucinations:
@@ -42,13 +42,13 @@ While exploring the facilities, you have a chance of running into a hallucinatio
 
 This can manifest in them wandering around the facility aimlessly, staring at you, or even them chasing after you.
 
-If you are touched by the hallucination when it's chasing you, you will recieve a lot of negative effects.
+If you are touched by the hallucination when it's chasing you, you can recieve a few effects.
 
 They are easy to avoid though; Simply closing a door on them or leaving the facility will prevent them from getting you. 
 
 ### Fake Items:
 
-When inside the facility, you can stumble upon a piece of scrap that feels off, and for good reason too. 
+While inside the facility, you can stumble upon a piece of scrap that feels off, and for good reason too. 
 
 Scanning it will reveal that is has no value, and picking it up can have several effects on you.
 
