@@ -1,4 +1,6 @@
 # Insanity Remastered
+
+## This mod is best experienced with smaller lobbies. (4-6) players.
 A mod for Lethal Company that adds more features to the insanity mechanic.
 
 This is a client-sided mod as it would be odd if other players could see your hallucinations.
@@ -13,15 +15,14 @@ This is a client-sided mod as it would be odd if other players could see your ha
 
 ### Losing Sanity:
    - Being alone inside the facility will cause you to lose sanity.
-   - You will lose *A lot* of sanity when you are experiencing a panic attack.
    - During the Light Shutoff hallucination, you will lose a bit more sanity than normal.
    - Certain hallucinations can cause more sanity loss.
    - (MIGHT ADD) When going deeper into the facility, you will lose more sanity. (The further you are from an exit, the more sanity you will lose).
 
 ### Gaining Sanity:
    - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
-   - Consuming pills will reset your insanity level entirely.
    - Being around players will allow your sanity to regen when inside the facility. Better buddy up!
+   - (PLANNED)Consuming pills will reset your insanity level entirely.
    - (WILL ADD SOON) Being near any light source will also reduce sanity loss.
      
 **There are now three levels of insanity. High, Medium, and Low.**
@@ -76,5 +77,7 @@ I already have plans for or I am already working on new things such as:
 - Hallucinations of any enemy. (Bracken, Thumper, etc.)
 - Fake Rooms
 - Replacing teammates models with enemy models.
-- Cross-Mod compatibility with mods such as Skinwalker to play recordings as hallucination sounds.
+- Integration with mods such as Skinwalker to play recordings as hallucination sounds.
 - The observer.
+## Suggestions and Bug Reports:
+*If you have any suggestions or encounter any bugs relating to the mod, please leave them at the Github page.
