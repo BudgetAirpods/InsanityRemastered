@@ -24,7 +24,7 @@ namespace SanityRewrittenMod
 
         public const string modGUID = "BudgetAirpods.InsanityRemastered";
         public const string modName = "Insanity Remastered";
-        public const string modVersion = "1";
+        public const string modVersion = "1.0.0";
 
         private readonly Harmony harmony = new Harmony("BudgetAirpods.InsanityRemastered");
 
