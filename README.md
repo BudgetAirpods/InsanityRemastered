@@ -80,4 +80,4 @@ I already have plans for or I am already working on new things such as:
 - Integration with mods such as Skinwalker to play recordings as hallucination sounds.
 - The observer.
 ## Suggestions and Bug Reports:
-*If you have any suggestions or encounter any bugs relating to the mod, please leave them at the Github page.
+If you have any suggestions or encounter any bugs relating to the mod, please leave them at the Github page.
