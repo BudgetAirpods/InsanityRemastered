@@ -65,7 +65,7 @@ namespace SanityRewrittenMod.Patches
                     }
                     else if (SanityMainManager.Instance.LightsOff)
                     {
-                        LocalPlayer.insanitySpeedMultiplier = 0.22f;
+                        LocalPlayer.insanitySpeedMultiplier = 0.32f;
                     }
                     else if (HallucinationManager.Instance.PanicAttack)
                     {

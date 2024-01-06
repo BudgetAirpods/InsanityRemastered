@@ -69,6 +69,13 @@ namespace SanityRewrittenMod
                 LightsOff = true;
             }
         }
+        private void Update()
+        {
+            if (RoundManager.Instance.powerOffPermanently)
+            {
+                LightsOff = true;
+            }
+        }
 
         private void TouchedByHallucination(bool touched)
         {
@@ -79,22 +86,6 @@ namespace SanityRewrittenMod
                 {
                     localPlayer.KillPlayer(Vector3.zero);
                 }
-            }
-        }
-
-        private void Update()
-        {
-            if (UnityInput.Current.GetKeyDown("b"))
-            {
-                BunkerHallucinations.PlayerModelHallucination(currentHallucinationModel);
-            }
-            if (UnityInput.Current.GetKeyDown("f"))
-            {
-                HallucinationManager.Instance.PickHallucination();
-            }
-            if (UnityInput.Current.GetKeyDown("v"))
-            {
-                BunkerHallucinations.LightHallucination();
             }
         }
 
