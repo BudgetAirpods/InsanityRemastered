@@ -5,8 +5,6 @@ A mod for Lethal Company that adds more features to the insanity mechanic.
 
 This is a client-sided mod as it would be odd if other players could see your hallucinations.
 
-**This mod is far from being done. This is only the first version. I have much more planned for this mod.**
-
 ## Additions / Changes:
 
 **Increased insanity cap to 200 instead of 50.**
