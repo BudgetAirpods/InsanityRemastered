@@ -1,6 +1,10 @@
 # Insanity Remastered
 
 ## This mod is best experienced with smaller lobbies. (4-6) players.
+
+## View the trello board to see what I'm currently working on or what I've already added.
+https://trello.com/b/trtanZtI/insanity-remastered
+
 A mod for Lethal Company that adds more features to the insanity mechanic.
 
 This is a client-sided mod as it would be odd if other players could see your hallucinations.
