@@ -1,0 +1,71 @@
+using BepInEx;
+using GameNetcodeStuff;
+using HarmonyLib;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Unity.Netcode;
+using UnityEngine;
+
+/
+/////////////////////////////////// SCANNER REWORK WOULD'VE PREVENTED SCANNER SPAM
+Doesn't work work properly. Too bad!    
+    [HarmonyPatch(typeof(HUDManager))]
+    internal class ScannerPatcher : BaseUnityPlugin
+    {
+        public static bool scannerRework;
+        [HarmonyPatch("PingScan_performed")]
+        [HarmonyPostfix]
+        static void Start(ref float ___playerPingingScan)
+        {
+            if (scannerRework)
+            {
+                ___playerPingingScan = 1f;
+            }
+        }
+    }
+}
+
+
+
+
+/////////////////////////////////////////////////////PLANET TYPES FOR AMBIENCES/////////////////////////
+Why did I even think about adding this to this mod lol
+
+private PlanetType planetType;
+        public PlanetType PlanetType { get { return planetType; } }
+
+
+private PlanetType UpdatePlanetType()
+        {
+            switch (StartOfRound.Instance.currentLevel.name)
+            {
+                case "ExperimentationLevel":
+                    return PlanetType.Desert;
+                case "AssuranceLevel":
+                    return  PlanetType.Desert;
+                case "OffenseLevel":
+                    return  PlanetType.Desert;
+                case "VowLevel":
+                    return  PlanetType.Forest;
+                case "MarchLevel":
+                    return  PlanetType.Forest;
+                case "RendLevel":
+                    return  PlanetType.Winter;
+                case "DineLevel":
+                    return  PlanetType.Winter;
+                case "TitanLevel":
+                    return PlanetType.Winter;
+            }
+            return PlanetType.Desert;
+        }
+
+        enum PlanetType
+    {
+        Forest,
+        Desert,
+        Winter,
+        Ocean
+    }
