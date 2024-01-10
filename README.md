@@ -1,15 +1,16 @@
 # Insanity Remastered
 
 ## This mod is best experienced with smaller lobbies. (4-6) players.
-
-## View the trello board to see what I'm currently working on or what I've already added.
-https://trello.com/b/trtanZtI/insanity-remastered
-
 A mod for Lethal Company that adds more features to the insanity mechanic.
 
 This is a client-sided mod as it would be odd if other players could see your hallucinations.
 
-**This mod is far from being done. This is only the first version. I have much more planned for this mod.**
+Installation:
+Drag InsanityRemastered.dll and the files with the prefix "SoundResources" into the plugins folder of bepinex.
+
+**This mod is far from being done.**
+
+### View the trello board to see what I'm working on currently: https://trello.com/b/trtanZtI/insanity-remastered
 
 ## Additions / Changes:
 
@@ -26,8 +27,8 @@ This is a client-sided mod as it would be odd if other players could see your ha
 ### Gaining Sanity:
    - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
    - Being around players will allow your sanity to regen when inside the facility. Better buddy up!
-   - (PLANNED)Consuming pills will reset your insanity level entirely.
-   - (WILL ADD SOON) Being near any light source will also reduce sanity loss.
+   - Consuming pills will reset your insanity level entirely.
+   - (PLANNED) Being near any light source will also reduce sanity loss.
      
 **There are now three levels of insanity. High, Medium, and Low.**
    - As your insanity level progresses, you will experience more intense hallucinations.
@@ -81,7 +82,9 @@ I already have plans for or I am already working on new things such as:
 - Hallucinations of any enemy. (Bracken, Thumper, etc.)
 - Fake Rooms
 - Replacing teammates models with enemy models.
-- Integration with mods such as Skinwalker to play recordings as hallucination sounds.
+- ~~Integration with mods such as Skinwalker to play recordings as hallucination sounds~~.
 - The observer.
 ## Suggestions and Bug Reports:
 If you have any suggestions or encounter any bugs relating to the mod, please leave them at the Github page.
+
+https://github.com/BudgetAirpods/InsanityRemastered/tree/main
