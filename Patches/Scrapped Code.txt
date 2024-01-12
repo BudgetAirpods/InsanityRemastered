@@ -1,0 +1,102 @@
+
+
+//////CACHING AND SAVING ENEMY MODELS. MIGHT RE-ADD SOON.
+Very annoying to setup. I might work on this soon. I don't wanna spend too much time trying to add this.
+private void SaveEnemyModels()
+        {
+            print("Loading and saving enemy models.");
+            foreach(SpawnableEnemyWithRarity enemy in RoundManager.Instance.currentLevel.Enemies)
+            {
+                GameObject enemyPrefab = enemy.enemyType.enemyPrefab.GetComponentInChildren<EnemyAICollisionDetect>().transform.gameObject;
+                if (!EntityModels.Contains(enemyPrefab))
+                {
+                    GameObject enemyModel = Instantiate(enemyPrefab);
+                    enemyModel.SetActive(false);
+                    enemyModel.transform.SetParent(currentHallucinationModel.transform);
+                    entityModels.Add(enemyPrefab);
+                    foreach(AnimationClip clip in enemyModel.GetComponentInChildren<Animator>().runtimeAnimatorController.animationClips)
+                    {
+                        print(clip.name);
+                    }
+                }
+            }
+        }
+
+
+
+
+/
+///// Loading modded enemy models
+public GameObject LoadModModels(string name)
+        {
+            print("Tejhsoitgsjisjfsioefjiofesjeiosfj");
+            string enemyBundle = Path.Combine(Path.GetDirectoryName(((BaseUnityPlugin)this).Info.Location), "InsanityRemastered_Enemies");
+            mls.LogMessage(Directory.Exists(enemyBundle));
+            AssetBundle enemies = AssetBundle.LoadFromFile(enemyBundle);
+            print(enemies.LoadAsset<GameObject>("assets/" + name + ".prefab"));
+            GameObject enemyModel = enemies.LoadAsset<GameObject>("assets/" + name + ".prefab");
+            if(enemyModel == null)
+            {
+                mls.LogError("Failed to load enemies.");
+            }
+            return enemyModel;
+        }
+/////////////////////////////////// SCANNER REWORK WOULD'VE PREVENTED SCANNER SPAM
+Doesn't work work properly. Too bad!    
+    [HarmonyPatch(typeof(HUDManager))]
+    internal class ScannerPatcher : BaseUnityPlugin
+    {
+        public static bool scannerRework;
+        [HarmonyPatch("PingScan_performed")]
+        [HarmonyPostfix]
+        static void Start(ref float ___playerPingingScan)
+        {
+            if (scannerRework)
+            {
+                ___playerPingingScan = 1f;
+            }
+        }
+    }
+}
+
+
+
+
+/////////////////////////////////////////////////////PLANET TYPES FOR AMBIENCES/////////////////////////
+Why did I even think about adding this to this mod lol
+
+private PlanetType planetType;
+        public PlanetType PlanetType { get { return planetType; } }
+
+
+private PlanetType UpdatePlanetType()
+        {
+            switch (StartOfRound.Instance.currentLevel.name)
+            {
+                case "ExperimentationLevel":
+                    return PlanetType.Desert;
+                case "AssuranceLevel":
+                    return  PlanetType.Desert;
+                case "OffenseLevel":
+                    return  PlanetType.Desert;
+                case "VowLevel":
+                    return  PlanetType.Forest;
+                case "MarchLevel":
+                    return  PlanetType.Forest;
+                case "RendLevel":
+                    return  PlanetType.Winter;
+                case "DineLevel":
+                    return  PlanetType.Winter;
+                case "TitanLevel":
+                    return PlanetType.Winter;
+            }
+            return PlanetType.Desert;
+        }
+
+        enum PlanetType
+    {
+        Forest,
+        Desert,
+        Winter,
+        Ocean
+    }
