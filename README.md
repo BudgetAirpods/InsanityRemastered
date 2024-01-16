@@ -32,7 +32,7 @@
 
 - Walkie Talkies can play Auditory Hallucination sound effects and Skinwalker clips if installed.
 
-- Your sanity level will not be at max until you experience a panic attack. (For those using InsanityMeter, this is refering to a enum that stores the player's sanity level).
+- Your sanity level will not be at max until you experience a panic attack. (For those wondering, this is refering to an enum that stores the player's sanity level).
 
 ### Additions
 - Added a few more sound effects.
