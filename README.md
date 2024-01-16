@@ -1,90 +1,53 @@
-# Insanity Remastered
+# This is the alpha version of Update V1.1.0
+## I am fully aware there is nothing here yet. There will be soon.
+## Everything you see here is subject to change. There are more things to be added to this update.
 
-## This mod is best experienced with smaller lobbies. (4-6) players.
-A mod for Lethal Company that adds more features to the insanity mechanic.
+## Do not download this with the intent to use in normal gameplay. This is only for bug reporting / testing / suggestions.
 
-This is a client-sided mod as it would be odd if other players could see your hallucinations.
+### Changes:
 
-Installation:
-Drag InsanityRemastered.dll and the files with the prefix "SoundResources" into the plugins folder of bepinex.
+- Fully reworked the fake player AI.
 
-**This mod is far from being done.**
-
-### View the trello board to see what I'm working on currently: https://trello.com/b/trtanZtI/insanity-remastered
-
-## Additions / Changes:
-
-**Increased insanity cap to 200 instead of 50.**
-
-## Sanity Loss and Gain methods:
-
-### Losing Sanity:
-   - Being alone inside the facility will cause you to lose sanity.
-   - During the Light Shutoff hallucination, you will lose a bit more sanity than normal.
-   - Certain hallucinations can cause more sanity loss.
-   - (MIGHT ADD) When going deeper into the facility, you will lose more sanity. (The further you are from an exit, the more sanity you will lose).
-
-### Gaining Sanity:
-   - Flashlights will reduce the sanity drain amount when turned on, making them really useful in this mod.
-   - Being around players will allow your sanity to regen when inside the facility. Better buddy up!
-   - Consuming pills will reset your insanity level entirely.
-   - (PLANNED) Being near any light source will also reduce sanity loss.
+   - It can now spawn at any sanity level.
+   - It can now select a random player's suit. (DOES NOT COPY MORECOMPANY COSMETICS YET)
+   - Like before, it has three possible stages: staring, wandering, and chasing.
+   - It will always stare at you if your insanity level is less than a quarter.
+   - If your insanity level is around 75% of the max amount, it will wander around its spawn point.
+   - It finally plays footstep sounds
      
-**There are now three levels of insanity. High, Medium, and Low.**
-   - As your insanity level progresses, you will experience more intense hallucinations.
-### Sound Hallucinations:
-In addition to the current sounds that play when inside the facility, this mod adds several new sounds to throw you off.
+-  ### Wandering
+    - When the fake player spawns, it will generate 3-5 random spots around the spawn point, and make its way to all of them and will despawn when finished.
+    - If the player is seen by or gets too close to them, it will proceed to stare at the player before entering chase mode.
+    - (Not added yet) While it makes its way to their destination, it will look around the environment.
 
-There's also a chance certain vanilla sound effects will play to make the sounds more believable.
+- ### Chasing
+     - **IT IS NO LONGER STOPPED BY DOORS. YOU NEED TO RUN FOR YOUR LIFE OR LEAVE THE FACILITY**
+     - This is mostly the same. It will chase the player until it despawns.
+     - (Not added yet) If the player loses LOS, the hallucination will walk to the last seen position and look around. If it doesn't spot you, it will despawn,
 
-### Light Shutoff:
+- Reworked how hallucinations are selected and stored.
+   - Hallucinations are now stored in a dictionary with their ID and the sanity level they should occur at.
+   - Allows for chaining hallucinations.
+   - Allows for easier additions of hallucinations.
 
-While inside the facility, the lights have a chance to go out for you and you only.
+- Walkie Talkies can play Auditory Hallucination sound effects and Skinwalker clips if installed.
 
-They will power back on their own eventually, but you can step outside and re-enter the facility to force them on.
-### Player Hallucinations:
+- Your sanity level will not be at max until you experience a panic attack. (For those using InsanityMeter, this is refering to a enum that stores the player's sanity level).
 
-While exploring the facilities, you have a chance of running into a hallucination of a player.
+### Additions
+- Added a few more sound effects.
+  
+- Added 2 new hallucinations ( more are coming with this update. This is just the alpha version like stated before.)
+  
+- Added Light Proximity Detection:
+     - You will not lose sanity when in proximity of a light source **(THIS EXCLUDES FLASHLIGHTS)**.
+  
+- Added a message to notify the player when they're about to or are already experiencing a panic attack.
 
-This can manifest in them wandering around the facility aimlessly, staring at you, or even them chasing after you.
+### Integrations
 
-If you are touched by the hallucination when it's chasing you, you can recieve a few effects.
-
-They are easy to avoid though; Simply closing a door on them or leaving the facility will prevent them from getting you. 
-
-### Fake Items:
-
-While inside the facility, you can stumble upon a piece of scrap that feels off, and for good reason too. 
-
-Scanning it will reveal that is has no value, and picking it up can have several effects on you.
-
-It will despawn if it is not picked up within a few seconds of spawning.
-
-#### Panic Attacks:
-
-At the highest level of insanity, you will slowly experience a panic attack.
-
-During one, almost all hallucinations become lethal and you experience one of the following symptoms:
-- Slowness.
-- Whispering from unknown sources.
-- Reduced Stamina.
-- Reduced Vision.
-- Death.
-
-Panic attacks can be helped by stepping outside the facility for a while.
-
-## Planned Features:
-
-As I have stated, this is only the first version of this mod.
-
-I already have plans for or I am already working on new things such as:
-
-- Hallucinations of any enemy. (Bracken, Thumper, etc.)
-- Fake Rooms
-- Replacing teammates models with enemy models.
-- ~~Integration with mods such as Skinwalker to play recordings as hallucination sounds~~.
-- The observer.
-## Suggestions and Bug Reports:
-If you have any suggestions or encounter any bugs relating to the mod, please leave them at the Github page.
-
-https://github.com/BudgetAirpods/InsanityRemastered/tree/main
+- Updated skinwalker integration:
+     - Please let me know if you experience any performance issues with this new integration method.
+     - If you are, I am planning on having a setting in the config the allows you to switch to the older integration method
+     - **THIS MEANS YOU WOULD HAVE TO DOWNLOAD A OLDER VERSION OF SKINWALKER (BEFORE 3.0.0)**
+- Updated AdvancedCompany compatibility with the Helmet Lamp.
