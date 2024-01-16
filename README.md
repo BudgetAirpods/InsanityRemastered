@@ -1,5 +1,5 @@
 # This is the alpha version of Update V1.1.0
-## I am fully aware there is nothing here yet. There will be soon.
+
 ## Everything you see here is subject to change. There are more things to be added to this update.
 
 ## Do not download this with the intent to use in normal gameplay. This is only for bug reporting / testing / suggestions.
