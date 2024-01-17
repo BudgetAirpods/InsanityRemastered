@@ -1,5 +1,7 @@
 # Insanity Remastered
 
+## An alpha version of the latest update can be downloaded [here](https://github.com/BudgetAirpods/InsanityRemastered/releases/tag/v1.1.0-alpha)
+Please only use it for testing / bug hunting
 ## This mod is best experienced with smaller lobbies. (4-6) players.
 A mod for Lethal Company that adds more features to the insanity mechanic.
 
