@@ -1,5 +1,7 @@
 # Insanity Remastered
 
+# Insanity Remastered is being discontinued soon. View the annoucement [here](https://github.com/BudgetAirpods/InsanityRemastered/discussions/40)
+
 ## This mod is best experienced with smaller lobbies. (4-6) players.
 A mod for Lethal Company that adds more features to the insanity mechanic and tweaks a few things related to it.
 
